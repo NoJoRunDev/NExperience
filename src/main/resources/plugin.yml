@@ -1,0 +1,11 @@
+name: NExperience
+version: '${project.version}'
+main: org.nojorundev.nexperience.NExperience
+api-version: '1.16'
+
+commands:
+  nexp:
+    description: Команда для конвертации опыта.
+    usage: /nexp <количество|max>
+    permission: nexp.use
+    permission-message: "§cУ вас нет прав на это."
